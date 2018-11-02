@@ -14,19 +14,10 @@
 }
 
 .form-control {
-    height: 40px;
-    background-size: 100%;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-/* .card {
-    margin-bottom: 50px;
-    margin-top: 20px;
-} */
-
 .card-body {
-    /* overflow-y:scroll; */
-    /* position: relative; */
     width:100%;
     padding: 1.5rem;
 }
@@ -43,13 +34,22 @@ div.container.card {
     color: rgba(170, 77, 0, 0.473);
     display:flex;
     justify-content: center;
-    flex-direction: column;    
+    flex-direction: row;
+    padding: 10px;
 }
 
-.type label {
-    font-size:15px;
-    padding: 5px;
+.type {
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
 }
+.type label {
+    font-size:12px;
+    padding: 10px;
+} 
+.type checkbox {
+    padding: 20px;
+} 
 
 .md-form {
     position: static;
